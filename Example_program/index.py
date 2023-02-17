@@ -15,7 +15,7 @@ def main():
     # Funcion para hashear el passwrod anteriormente generdo
     password_hashed = hash_password(contrasena_gen)
     # Imprime el password hasheado
-    print("The password hashing is:", password_hashed)
+    print("The password hashing is:", password_hashed.hexdigest())
 
 # Funcion para generar el hasheo
 
