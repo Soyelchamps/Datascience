@@ -18,7 +18,7 @@ for numero in range(0, 100):
         print(numero)
 
 
-tabla = int(input("Ingrese un número para imprimir su tabla de multiplicar: "))
-for i in range(0, 101):
+tabla = int(input("Ingrese un numero:"))
+for i in range(0, 100):
     resultado = tabla * i
-    print(f"{tabla} x {i} = {resultado}")
+    print(tabla,  "x", i, "= ", resultado)

@@ -36,12 +36,12 @@ for key in pets.keys():
     print(pets[key])
 
 print("FOR IN RANGE")
-# for itr in range(len(pets)):
-#   print(pets[itr + 1])
-#  print(pets.get(itr+1))
+for itr in range(len(pets)):
+    print(pets[itr+1])
+    print(pets.get(itr+1))
 
 
-# for itr in range(len(pets)):
-# print(pets[itr+1])
-# for itr in range(len(pets)):
-#   print(pets[itr + 1])
+for itr in range(len(pets)):
+    print(pets[itr+1])
+for itr in range(len(pets)):
+    print(pets[itr+1])
