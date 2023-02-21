@@ -1,5 +1,5 @@
 # 1) Escribir un programa que guarde en una variable el diccionario {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}, pregunte al usuario por una divisa y muestre su símbolo o un mensaje de aviso si la divisa no está en el diccionario.
-"""
+
 divisas = {'Euro': '€', 'Dollar': '$', 'Yen': '¥'}
 div = ""
 
@@ -88,3 +88,4 @@ for m, c in curso.items():
     print("Tu materia ", m, " tiene ", c, " creditos")
     suma_de_cred += c
 print("Tus creditos totales son: ", suma_de_cred)
+"""

@@ -2,6 +2,8 @@
 # Escribir una función mas_larga() que tome una lista de palabras y devuelva la mas larga.
 
 # Define funcion
+"""
+
 def mas_larga(cadena):
     # Inicializa variable longitud log
     log = 0
@@ -21,6 +23,7 @@ def mas_larga(cadena):
 cadena = ["Delia", "CarlosDIAZBARRIAG", "Angel", "Ricardo"]
 # imprime el resulado de la funcion
 print(mas_larga(cadena))
+"""
 
 """
 Ejercicio 2
@@ -29,16 +32,18 @@ Escribir una función filtrar_palabras() que tome una lista de palabras y un ent
 lista = ["Perro", "Manzana", "Gato", "León", "Lápiz", "Trenza", "Chocolate", "Nariz", "Azul", "Sol",
          "Llave", "Agua", "Guitarra", "Pájaro", "Feliz", "Jardín", "Pelota", "Silla", "Montaña", "Vela"]
 
-n = int(input("Ingresa el numero de palabaras que deseas filtrar"))
+n = int(input("Ingresa el numero de palabaras que deseas filtrar: "))
 
 
 def filtrar_palabra(lista, n):
     lista_filtrada = []
     for i in range(len(lista)):
         if len(lista[i]) > n:
-            lista_filtrada[i] = lista[i]
+            lista_filtrada.append(lista[i])
     return (lista_filtrada)
 
+
+print(filtrar_palabra(lista, n))
 
 """
 Ejercicio 3
