@@ -25,7 +25,22 @@ print(mas_larga(cadena))
 """
 Ejercicio 2
 Escribir una función filtrar_palabras() que tome una lista de palabras y un entero n, y devuelva las palabras que tengan mas de n caracteres.
+"""
+lista = ["Perro", "Manzana", "Gato", "León", "Lápiz", "Trenza", "Chocolate", "Nariz", "Azul", "Sol",
+         "Llave", "Agua", "Guitarra", "Pájaro", "Feliz", "Jardín", "Pelota", "Silla", "Montaña", "Vela"]
 
+n = int(input("Ingresa el numero de palabaras que deseas filtrar"))
+
+
+def filtrar_palabra(lista, n):
+    lista_filtrada = []
+    for i in range(len(lista)):
+        if len(lista[i]) > n:
+            lista_filtrada[i] = lista[i]
+    return (lista_filtrada)
+
+
+"""
 Ejercicio 3
 Escribir un programa que le diga al usuario que ingrese una cadena. El programa tiene que evaluar la cadena y decir cuantas letras mayúsculas tiene.
 
