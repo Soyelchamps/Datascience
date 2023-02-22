@@ -1,0 +1,11 @@
+Utilizando documentación de pandas y numpy:
+
+Handle data
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+
+Graphs
+https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+
+1) Extraer datos del CSV: file-load.csv con el uso de matplot
+2) Calcular y graficar el promedio de todos los estudiantes. (Utilizando la columna de "Final")
+3) Graficar los promedios de cada test.
